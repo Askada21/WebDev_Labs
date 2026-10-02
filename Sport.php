@@ -44,6 +44,15 @@
             <input type="reset" value="Reset">
         </form>
 
+        <?php 
+            $text = 'I love PHP';
+            $name = 'Daria';
+
+            echo "My name is $name, I have to say that $text";
+
+            echo "<p>Number of characters: " . strlen($text) . "</p>";
+            echo "<p>Position of PHP: " . strpos($text, 'PHP') . "</p>";
+        ?>
 
     </body>
 </html>
