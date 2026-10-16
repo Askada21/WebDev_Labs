@@ -10,6 +10,7 @@ if ($time < 10) {
 } else {
     echo "Have a good night!";
 }
+echo "<br>";
 ?>
 
 <?php
@@ -21,8 +22,17 @@ while ($i <= 40){
     }
     $i += 5;
 }
+echo "<br>";
 ?>
 
 <?php
-//
+// Do...While
+$i = 5;
+do{
+    if ($i != 25){
+        echo $i . " ";
+    }
+    $i += 5;
+}
+while ($i <= 40)
 ?>
