@@ -26,7 +26,7 @@ echo "<br>";
 ?>
 
 <?php
-// Do...While
+// Task 2 Do...While
 $i = 5;
 do{
     if ($i != 25){
@@ -35,4 +35,17 @@ do{
     $i += 5;
 }
 while ($i <= 40)
+    ?>
+
+<?php
+// Task 2 For
+echo "<br>";
+$programmingLanguagesArray = ["PHP", "C++", "C#", "Python", "Java"];
+foreach ($programmingLanguagesArray as $language){
+    echo $language . " ";
+}
+echo "<br>";
+?>
+
+<?php
 ?>
