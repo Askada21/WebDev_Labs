@@ -35,17 +35,25 @@ do{
     $i += 5;
 }
 while ($i <= 40)
-    ?>
+?>
 
 <?php
-// Task 2 For
+// Task 2 Foreach & Array Iterator 
 echo "<br>";
 $programmingLanguagesArray = ["PHP", "C++", "C#", "Python", "Java"];
 foreach ($programmingLanguagesArray as $language){
     echo $language . " ";
 }
 echo "<br>";
+
+$iterator = new ArrayIterator($programmingLanguagesArray);
+while ($iterator->valid()){
+    echo $iterator->current() . "<br>";
+    $iterator->next();
+}
 ?>
 
-<?php
-?>
+
+
+
+
