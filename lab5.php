@@ -1,4 +1,6 @@
 <?php
+// Include the header file
+include "header.php";
 // Task 1 If Else
 
 $time = date("H");
@@ -14,6 +16,7 @@ echo "<br>";
 ?>
 
 <?php
+include "header.php";
 // Task 2 While Do...While
 $i = 5;
 while ($i <= 40){
@@ -26,6 +29,7 @@ echo "<br>";
 ?>
 
 <?php
+include "header.php";
 // Task 2 Do...While
 $i = 5;
 do{
@@ -38,6 +42,7 @@ while ($i <= 40)
 ?>
 
 <?php
+include "header.php";
 // Task 2 Foreach & Array Iterator 
 echo "<br>";
 $programmingLanguagesArray = ["PHP", "C++", "C#", "Python", "Java"];
@@ -52,7 +57,6 @@ while ($iterator->valid()){
     $iterator->next();
 }
 ?>
-
 
 
 
