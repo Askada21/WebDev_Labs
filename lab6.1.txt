@@ -1,0 +1,3 @@
+Hello PHP!
+I am learning file handling.
+This is my first text file.
